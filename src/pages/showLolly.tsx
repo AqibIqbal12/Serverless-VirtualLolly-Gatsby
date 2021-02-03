@@ -3,6 +3,7 @@ import { useQuery, gql } from '@apollo/client';
 import Lolly from '../components/lolly';
 import { useQueryParam } from 'gatsby-query-params';
 import { navigate } from 'gatsby';
+import "./styles.css";
 
 const ShowLolly = () => {
 
