@@ -51,8 +51,8 @@ const ShowLolly = () => {
                     <p style={{ 
                         textAlign: 'center', fontSize: '18px' }} >Your lolly is freezing. Share it with this link:</p>
                 </div>
-                <div className='path_msg_link' >
-                    <pre>{location.origin}/showLolly/?id={data.getLolly.id}</pre>
+                <div className='path_msg_link'  >
+                    <p>{location.origin}/showLolly/?id={data.getLolly.id}</p>
                 </div>
                 <div className='message_div' >
                     <p className='show_recipient_name' >{data.getLolly.recName}</p>
